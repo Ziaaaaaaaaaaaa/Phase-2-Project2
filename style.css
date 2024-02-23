@@ -602,7 +602,7 @@ h4{
     height: 7.4rem;
     z-index: 100;
     position: absolute;
-    top: 76%;
+    top: 30rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -666,7 +666,7 @@ h4{
         height: 7.4rem;
         z-index: 100;
         position: absolute;
-        top: 76%;
+        top: 30rem;
         display: flex;
         justify-content: center;
         align-items: center;
