@@ -201,11 +201,11 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-left: 7rem;
+      margin-left: 14rem;
   }
   
   p, p a {
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 500;
     /* text-align: center; */
     /* color: grey; */
@@ -228,10 +228,10 @@
 
 .col-sec {
   display: grid;
-  grid-template-columns: 20.9rem 20.9rem 20.9rem;
+  grid-template-columns: 26rem 26rem 26rem;
   grid-template-rows: auto auto;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
   padding-bottom: 4rem;
 }
 .box-1 {
@@ -251,18 +251,19 @@
 }
 .sub-box {
   display: grid;
-  grid-template-columns: 10.4rem 10.4rem;
+  width: 100;
+  grid-template-columns: 17.4rem 10.4rem;
   justify-content: center;
   column-gap: 10px;
 }
 .sub-boxs {
   background-color: #244AC2;
   color: white;
-  height: 2rem;
+  height: 3rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: xx-small;
+
   padding: 2px 10px;
 }
 .sub-boxs img {
@@ -285,7 +286,7 @@ h2{
 }
 
 h4{
-  font-size: 10px;
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -357,8 +358,60 @@ h4{
   align-items: center;
 }
 
+p, p a {
+  font-size: 19px;
+  font-weight: 500;
+  /* text-align: center; */
+  /* color: grey; */
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 }
 @media only screen and (max-width: 1024px) {
+
+  .col-sec {
+    display: grid;
+    grid-template-columns: 20.9rem 20.9rem 20.9rem;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 4rem;
+  }
+  .box-1 {
+    background-color: #061C2C;
+    color: white;
+    height: 9rem;
+    padding-left: 20px;
+    padding-top: 18px;
+    margin-bottom: 1.5rem;
+  }
+  .box-1 img {
+    height: auto;
+    width: 3rem;
+  }
+  .box-1 h3 {
+    margin: 0;
+  }
+  .sub-box {
+    display: grid;
+    grid-template-columns: 10.4rem 10.4rem;
+    justify-content: center;
+    column-gap: 10px;
+  }
+  .sub-boxs {
+    background-color: #244AC2;
+    color: white;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: xx-small;
+    padding: 2px 10px;
+  }
+
   .black-banner{
     background-color: #000000;
     width: 40rem;
@@ -382,15 +435,71 @@ h4{
   align-items: center;
 }
 
+p, p a {
+  font-size: 19px;
+  font-weight: 500;
+  /* text-align: center; */
+  /* color: grey; */
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+}
+@media only screen and (min-width: 1024px) {
+
+
+
+  .black-banner{
+    background-color: #000000;
+    width: 40rem;
+    height: 7.4rem;
+    z-index: -1;
+    float: right;
+    bottom: 63%;
+    right: 0%;
+    position: absolute;
+}
+
+.blue-banner{
+  background-color: #3155cc;
+  width: 40rem;
+  height: 7.4rem;
+  z-index: 100;
+  position: absolute;
+  top: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p, p a {
+  font-size: 19px;
+  font-weight: 500;
+  /* text-align: center; */
+  /* color: grey; */
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+}
+
+@media only screen and (min-width: 768px) {
+  p, p a {
+    font-size: 20px;
+    font-weight: 500;
+}
+}
 @media only screen and (max-width: 768px) {
   .col-sec {
-    display: grid;
+    display: flex;
     grid-template-columns: 50%;
     grid-template-rows: 1;
     justify-content: center;
-    gap: 5.2rem;
+    gap: 2rem;
     padding-bottom: 4rem;
 
   }
@@ -404,25 +513,25 @@ h4{
   }
 
   .box-1{
-    height: 90%;
+    height: 70%;
   }
 
   .sub-box{
     display: grid;
-    grid-template-columns: 48% 48%;
+    grid-template-columns: 47% 48%;
     justify-content: center;
-    column-gap: 30px;
+    column-gap: 10px;
     padding-bottom: 8rem;
 
   }
 
   .sub-boxs{
-    height: 200%;
+    height: 100%;
   }
 
 
   p, p a {
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 500;
 }
 
@@ -490,7 +599,7 @@ h4{
 
 
   p, p a {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 500;
 }
 
